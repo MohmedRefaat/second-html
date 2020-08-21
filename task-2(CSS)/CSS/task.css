@@ -1,0 +1,68 @@
+/***********<<<for all body>>>**********/
+ *{padding: 0;margin:0;}
+/***********<<<for all body>>>**********/ 
+.content{position: relative;}
+/*****************************<<<Nav Bar>>>*****************************/
+ .Nav-Bar ul{list-style: none;background:#333;overflow: auto;}
+ .Nav-Bar li{float: right;margin: 10px;padding:10px;color:white;}
+ .Nav-Bar ul a{text-decoration: none;display: block;text-align: center;}
+ .Nav-Bar .Home {float: left;background:green;padding: 20px;margin: 0;font-size: large;font-weight: bold;}
+ .Nav-Bar li:hover:not(.Home){background: rgba(0, 0, 0,.8);padding: 10px;margin: 10px;}
+/*****************************<<<Nav Bar>>>*****************************/
+/*****************************<<<Side Nav Bottons>>>*****************************/
+    .sidenav-bottons a
+    {
+     position: absolute;left: -100px;font-size: 20px ;color:white;text-decoration: none;padding: 20px; width: 100px;
+     transition:.3s;border-radius: 0 10px 10px 0;display: block;font-weight: bold;
+    }
+    .sidenav-bottons a:hover{left: 0;}                 
+    #About{top: 70px;background-color: #4CAF50;}
+    #Blog{top: 140px;background-color: #2196F3;}
+    #Projects {top: 210px;background-color: #f44336;}
+    #Contact {top: 280px;background-color: #555}
+/*****************************<<<side nav bottons>>>*****************************/ 
+/*****************************<<<Sticky Positioning>>>*****************************/ 
+    .sticky h1{text-align: center;font-family: "Comic Sans MS";}
+    .sticky h2{background: black;color:white;width: 80%;padding: 10px;margin: 5px auto;position: sticky; top:0;font-family: "Comic Sans MS";}
+    .sticky p{margin: 20px auto;width:70%;font-size: large;font-weight: 400;font-family: "Comic Sans MS";}
+/*****************************<<<Sticky Positioning>>>*****************************/
+/* **************************************************<<<height of paragraph>>>*****************************************/
+  .height-paragraph
+   {
+      background-image: url(../images/9df71280ef9bcceb74f507a168ddecee.jpg);background-repeat: no-repeat; height: 700px;
+      background-position: center;background-attachment: fixed;position: relative;
+   }
+  .height-paragraph p
+    {
+     position: absolute;width: 80%;background:#333;text-align: center;top: 50%;left: 10%;max-height: 20px;overflow: hidden;
+     transition:.3s;padding: 10px;color:white;font-weight: bold;text-align: justify;
+    }
+    .height-paragraph p:hover{max-height: 100px;transition:.3s;overflow: visible;}
+    .height-paragraph:hover::after
+   {
+     content:"this from CSS ";background:rgba(255, 0, 0,.5);padding: 40px;width: 70%; 
+     position: absolute; bottom: 10%;left: 10%;color: white;font-weight: bold;
+    }
+/* **************************************************<<<height of paragraph>>>*****************************************/    
+/* **************************************************<<<parent & brothers>>>*****************************************/
+    .parent{background: rgba(255, 0, 0,.5);margin: 10px;font-size: 20px;text-transform: capitalize;}
+    .parent>p{margin:10px;}
+    .direct-div div{background:blueviolet;padding: 20px;margin:10px}
+    .direct-div p{background:green;padding: 20px;margin:10px}
+    .direct-div div:hover~p{background:#ddd;padding: 20px;margin:10px;}
+    .direct-div p:hover~p{background:#ddd;padding: 20px;margin:10px;}
+/* **************************************************<<<parent & brothers>>>*****************************************/
+/* **************************************************<<<first letter & first line>>>*****************************************/
+    .first
+    {
+     position: relative; background-image: url(../images/3D-3-d.jpg);height: 700px;background-repeat: no-repeat;background-position: center;
+     background-attachment: fixed;
+    }
+    .first p
+    {
+     background: rgba(125, 241, 9,.6);padding: 0px; width: 70%;position: absolute; top:50%;left:15%;color: white;font-weight: bold;
+     text-align: justify;
+    }
+    .first p::first-letter{background: #f44336;font-size: 40px;padding: 0 10px;margin:10px;}
+    .first p::first-line{color: blueviolet;font-size: 20px;font-weight:bold ;}
+/* **************************************************<<<first letter & first line>>>*****************************************/
