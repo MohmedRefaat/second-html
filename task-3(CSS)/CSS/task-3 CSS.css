@@ -1,0 +1,80 @@
+    body{background:#ddd;padding: 0;} 
+    .container{width:1170px;margin:auto;}
+/*start header*/
+
+    /*start slider part*/
+    .header .slider
+        {
+            background-image: url('../images/helloquence-61189-unsplash-1280px-1170x600.jpg');height: 500px;padding-top: 300px; 
+            -webkit-background-size: cover;/*CSS3*/ -moz-background-size: cover;/*CSS3*/ -o-background-size: cover;/*CSS3*/               
+            background-size: cover;/*CSS3*/                         
+        }
+       .header .slider .intro{text-align: center;}
+       .header .slider .intro h2
+       {
+           font-size: 50px;color:#fff;width: 600px;margin: 0 auto;border-top: 4px solid #fff;
+           border-bottom: 4px solid #fff; padding: 5px 0;
+       } 
+       .header .slider .intro button
+       {
+           margin-top: 30px;background: none; padding: 10px 30px;font-size: 20px;border: 2px solid #fff;
+           font-weight: bold;
+       }
+   /*end slider part*/
+
+   /* start navbar*/
+       .header .navbar{background-color: #252f31; color:#fff;overflow: hidden;}
+       .header .navbar h2{float:left;text-transform:uppercase;padding-left: 0; } 
+       .header .navbar h2 span{color: #2ecc71;}
+       .header .navbar ul{list-style:none;padding-left: 0;overflow: hidden;float: right;}
+       .header .navbar ul li{float:left;padding:10px}
+       .header .navbar ul li a{text-decoration: none;color: white;}
+       .header .navbar .active,.header .navbar ul li a:hover{color:  #2ecc71;}
+    /*end navbar*/
+
+/*end header*/
+
+/* start  accordiation image slider */ 
+    .accord h2
+    {
+     text-align: center;font: bold;font-size: 40px;color: white;border-top:3px solid white;border-bottom:3px solid white;
+     padding: 10px;width: 700px;margin: auto;
+    }
+    .accord{margin-top: 30px; overflow: hidden;width: 1220px;}
+    .accord li {border-left: 1px solid #ddd;width: 234px;display: block;position: relative;float: left;transition: all .5s;}
+    .accord .title{background: rgba(0, 0, 0, .6);position: absolute;left: 0;bottom:5px;padding: 0;width: 1000px;}
+    .accord .title a{display: block;color: white;padding: 20px;font-size: 20px;text-decoration: none;}
+    .accord  ul:hover li {width: 38px;}
+    .accord  ul li:hover {width: 1000px;}
+/* end  accordiation image slider */
+
+/* start portofolio*/
+    .portofolio{padding-top: 50px;padding-bottom: 50px;text-align: center; background: white;}
+    .portofolio h2{color: #666;}
+    .portofolio p{color: #777;margin-bottom: 30px;}
+    .portofolio .our-work{overflow: hidden;}
+    .portofolio .our-work >div{float: left;width: 33.333%;padding-bottom: 30px;}
+/* end portofolio*/
+
+/*start contact me*/
+    .contact-me {overflow: hidden;background: #252f31;padding-top: 50px;padding-left: 70px;}
+    .contact-me .info h2{color: white;margin-left: 40px;}
+    .contact-me .info p{color:#6A6E71;margin-left: 40px;line-height: 1.7;}
+    .contact-me .info p strong{color: #d1d6da;}
+    .contact-me .info{float: left;width: 50%;}
+/*end contact me*/
+
+/*start form*/
+    .contact-me .form{width: 45%;float: left;margin-left: 5%;}
+    .contact-me .form label{display: block;margin-bottom: 5px;color: #d1d6da;}
+    .contact-me .form input[type="text"]{background: #4b5557;color: #fff;padding: 10px;border: 0;width: 80%;margin-bottom: 10px;}
+    .contact-me .form textarea{background: #4b5557;color: #fff;padding: 10px;border: 0;width: 80%;margin-bottom: 10px;height: 300px;}
+    .contact-me .form input[type="submit"]{background: #191e22;color: #fff;padding: 10px 15px;margin-bottom:30px; }
+/* end form*/
+
+/* start footer*/
+    .footer{background:#191e22;color:#6A6E71;text-align: center;padding:20px;} 
+    .footer ul{list-style:none;padding-left: 0;overflow: hidden;}
+    .footer ul li{padding:10px;display: inline;}
+    .footer ul li a{text-decoration: none;color: white;}
+/* end footer*/
