@@ -1,0 +1,155 @@
+/*Global*/
+*{
+    padding: 0;
+    margin:0;
+}
+.content{
+    position: relative;
+    background-image: url('../images/eliza1star---Student\,-General-Artist-_-DeviantArt.png');
+    width: 100%;
+    height: 1500px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;    /*CSS3*/ 
+    -moz-background-size: cover;       /*CSS3*/
+    -o-background-size: cover;         /*CSS3*/               
+    background-size: cover;            /*CSS3*/ 
+}
+
+/*start nav bar*/
+.content nav{
+     font-weight:bold;
+     overflow: hidden;
+     background:#07071c;
+}
+.content nav ul{
+     list-style: none;
+ }
+ .content nav ul li{
+    float: right;
+     margin: 10px;
+     padding:10px;
+     color: #0c0e59;
+ }
+ .content nav .Home{
+     float: left;
+     background:rgb(11, 239, 247);
+     padding: 10px;
+}
+.content nav ul a{
+    text-decoration:none;
+    text-align: center;
+}
+.content nav ul li:hover:not(.Home){
+    background: rgb(11, 239, 247)
+}
+/*end nav bar*/
+
+/*start side navBar Bottons*/
+.content .sidenav-bottons {
+    position: relative;
+}
+.content .sidenav-bottons a{
+    position: absolute;
+    left: -100px;
+    font-size: 20px ;
+    color:white;
+    text-decoration: none;
+    padding: 20px; 
+    width: 100px;
+    transition:.3s;
+    border-radius: 0 10px 10px 0;
+    display: block;
+    font-weight: bold;
+    } 
+    .content .sidenav-bottons #About{
+    top: 20px;
+    background-color: #4CAF50;
+}
+.content .sidenav-bottons #Blog{
+    top: 90px;
+    background-color: #2196F3;
+}
+.content .sidenav-bottons #Projects {
+    top: 160px;
+    background-color: #f44336;
+}
+.content .sidenav-bottons #Contact {top: 230px;
+    background-color: #555
+}
+.content .sidenav-bottons a:hover{
+    left: 0;
+}   
+/*end side navBar Bottons*/
+
+/*Start date*/
+.content .date{
+    position: absolute;
+    width: 90%;
+    background: rgba(0,176,236,.6);
+    color: #01dbf6;
+    padding:20px;
+    top: 10%;
+    left:5%
+}
+/*end date*/
+
+/*start detailes tag*/
+.content .detailes{
+    position: absolute;
+    width: 90%;
+    background: rgba(0,176,236,.6);
+    color: #01dbf6;
+    padding:20px;
+    top: 15%;
+    left:5%
+}
+/*ens detailes tag*/
+ 
+/*start brosers list tag*/
+.content .Brosers-list input{
+    size: 100%;
+    width: 97%;
+    text-align:center;
+    padding: 15px;
+    background:#030216;
+    color: #04d4ff;
+}
+.content .Brosers-list{
+    position: absolute;
+    width: 90%;
+    background: rgba(0,176,236,.6);
+    padding:20px;
+    top: 40%;
+    left:5%
+}
+/*end  brosers list tag */
+
+/*start progress & meter*/
+.content .progress-meter{
+    position: absolute;
+    width: 90%;
+    background: rgba(0,176,236,.6);
+    padding:20px;
+    top: 60%;
+    left:5%
+}
+/*end  progress & meter*/
+
+/* start footer*/
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background:#07071c;
+    color:#6A6E71;
+    text-align: center;
+    padding:20px;
+} 
+footer ul{
+    list-style:none;
+}
+footer ul li{
+    padding:10px;
+    display: inline;
+}
+/* end footer*/
