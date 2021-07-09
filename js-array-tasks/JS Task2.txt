@@ -1,0 +1,24 @@
+1- Try to declare an array in 4 different ways, to contain the following 5 elements (200, "Ahmed", "Hi", true, false, "M", "css", "Hi");
+
+2- Check if your variable is an array or not in 2 different ways, and print the result on console;
+
+3- find a way to print the length of this array on console;
+
+4- Show the last index of element "Hi" in ur array, and print ur array;
+
+5- Show the first index of element "Hi" in ur array, and print ur array;
+
+6- convert your array to string in 2 different ways, and console it;
+
+7- Try to remove 4 elements from ur array at indices 0,3,4, and the last one is at the end;
+
+8- Try to add 3 string elements to ur array one at the beginning, one at index 2, and the last one at the end.
+       note: try to use a different way for each element; 
+
+9- Try to rearrange ur array alphabetically, and print ur new array; 
+
+10- Try to reverse ur array elements and print ur new array;
+
+11- define two arrays and combine them;
+
+
