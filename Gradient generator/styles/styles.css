@@ -1,0 +1,14 @@
+body{
+  font-family: cursive, 'papyrus';
+  color: indigo;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+/* // at least has to colors the start on an the final one and the first paramter is the diretion */
+  background: linear-gradient(to right, purple, pink);
+
+}
+h1, h2{
+  font-family:  'fantasy', cursive;
+  color: #fff;
+}
